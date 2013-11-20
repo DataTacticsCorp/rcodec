@@ -1,0 +1,12 @@
+Package: rCodec
+Type: Package
+Title: R interface to Apache Commons Codec library
+Version: 0.1
+Date: 2013-11-20
+Depends: R (>= 2.6.0), methods, rJava, xlsxjars
+Imports: rJava, xlsxjars
+Author: Data Tactics Corporation <pgrim@data-tactics.com>
+Maintainer: Data Tactics Corporation <pgrim@data-tactics.com>
+Description: Provides an interface to functions in the Apache Commons Codec library.
+License: Apache License (== 2.0)
+Packaged: 2013-05-09 22:18:20 UTC; pgrim

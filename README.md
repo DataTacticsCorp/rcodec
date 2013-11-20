@@ -3,8 +3,8 @@ Type: Package
 Title: R interface to Apache Commons Codec library
 Version: 0.1
 Date: 2013-11-20
-Depends: R (>= 2.6.0), methods, rJava, xlsxjars
-Imports: rJava, xlsxjars
+Depends: R (>= 2.6.0), methods, rJava
+Imports: rJava
 Author: Data Tactics Corporation <pgrim@data-tactics.com>
 Maintainer: Data Tactics Corporation <pgrim@data-tactics.com>
 Description: Provides an interface to functions in the Apache Commons Codec library.
@@ -16,7 +16,7 @@ R.  This is a work in progress, with more functions being added regularly.
 
 INSTALLATION
 
-rCodec requires the rJava and xlsxjars packages to be installed.
+rCodec requires the rJava package to be installed.
 
 rCodec can be acquired from GitHub using the following command:
 

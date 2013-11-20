@@ -13,5 +13,5 @@
 ## limitations under the License.
 .codecEnv <- new.env()
 .onLoad <- function(libname,pkgname){
-.jinit()
+.jpackage(pkgname)
 }

@@ -27,7 +27,7 @@ the rcodec directory and executing the following command:
 
   R CMD INSTALL rCodec-0.1.tar.gz
 
-which will cause R to install the package.
+which will cause R to install the package. On Windows platforms, you may need to add --no-multiarch for the install to work properly.
 
 USAGE
 
